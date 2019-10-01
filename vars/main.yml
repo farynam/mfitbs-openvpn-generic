@@ -1,0 +1,8 @@
+---
+# vars file for openvpn-generic
+
+#host PKI dir (keys, certs. etc)
+host_pki_dir: /etc/pki/openvpn
+
+#openvpn Diffie–Hellman file name base
+dh: dh
