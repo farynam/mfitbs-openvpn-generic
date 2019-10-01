@@ -24,11 +24,11 @@
 
 - name: Create host pki dir
   file:
-    path: "{{host_pki_dir}}"
+    path: "{{ host_pki_dir }}"
     state: directory
     mode: '0770'
 
 - name: Generate diffie helman
-  command: openssl dhparam -out {{host_pki_dir}}/{{dh}}.pem {{dh_len}}
+  command: openssl dhparam -out {{ host_pki_dir }}/{{ dh }}.pem {{ dh_len }}
   args:
-    creates: "{{host_pki_dir}}/{{dh}}.pem"
+    creates: "{{ host_pki_dir }}/{{ dh }}.pem"
