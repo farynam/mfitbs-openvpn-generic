@@ -1,7 +1,7 @@
 Role Name
 =========
 
-Generic tasks used by mfitbs-openvpn-client and mfitbs-openvpn-server.
+mfitbs_openvpn_generic
 
 Requirements
 ------------
